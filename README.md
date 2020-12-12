@@ -1,1 +1,1 @@
-# word_search
+# This algorithm takes a word search puzzle and a word bank and then returns boolean values for each word in the word bank. Because the algorithm can be run in parallel for each word in the word bank, we only care about the longest run of the algorithm to determine the span. Thus our running time is inside of O(n).
