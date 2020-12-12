@@ -101,8 +101,8 @@ word_search = ["T","N","V","P","E","M","A","R","V","A","B","C", #column1 (where 
                "F","S","I","C","E","C","R","E","A","M","P","K"]
 dimensions = (12,12) #In order for the math to work, you must start counting at 1. Thus the top left corner of the word search is (1,1)
 word_bank = ["BIKINI", "CABIN", "DIVING", "ICECREAM",
-             "BUTTHOLE", "KITE", "PAIL", "SHORTS", "SUNNY",
-             "SWIM", "SWIMMING", "TSHIRT", "WARM", "WENIS"]
+             "NOTINTHEWORDSEARCH", "KITE", "PAIL", "SHORTS", "SUNNY",
+             "SWIM", "SWIMMING", "TSHIRT", "WARM", "NOPE", "HOUSE"]
 
 def main(word_search, dimensions, word_bank):
     LOCATION_DICTIONARY = dict()
